@@ -25,6 +25,7 @@ import flutter from '/public/svg/skills/flutter.svg';
 import gcp from '/public/svg/skills/gcp.svg';
 import gimp from '/public/svg/skills/gimp.svg';
 import git from '/public/svg/skills/git.svg';
+import github from '/public/svg/skills/github.svg';
 import go from '/public/svg/skills/go.svg';
 import graphql from '/public/svg/skills/graphql.svg';
 import haxe from '/public/svg/skills/haxe.svg';
@@ -33,6 +34,7 @@ import illustrator from '/public/svg/skills/illustrator.svg';
 import ionic from '/public/svg/skills/ionic.svg';
 import java from '/public/svg/skills/java.svg';
 import javascript from '/public/svg/skills/javascript.svg';
+import jira from '/public/svg/skills/jira.svg';
 import julia from '/public/svg/skills/julia.svg';
 import kotlin from '/public/svg/skills/kotlin.svg';
 import lightroom from '/public/svg/skills/lightroom.svg';
@@ -45,6 +47,7 @@ import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
 import nginx from '/public/svg/skills/nginx.svg';
+import nodeJS from '/public/svg/skills/nodeJS.svg';
 import numpy from '/public/svg/skills/numpy.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
 import opencv from '/public/svg/skills/opencv.svg';
@@ -65,6 +68,7 @@ import swift from '/public/svg/skills/swift.svg';
 import tailwind from '/public/svg/skills/tailwind.svg';
 import tensorflow from '/public/svg/skills/tensorflow.svg';
 import typescript from '/public/svg/skills/typescript.svg';
+import ubuntu from '/public/svg/skills/ubuntu.svg';
 import unity from '/public/svg/skills/unity.svg';
 import vitejs from '/public/svg/skills/vitejs.svg';
 import vue from '/public/svg/skills/vue.svg';
@@ -99,6 +103,8 @@ export const skillsImage = (skill) => {
       return javascript;
     case 'next js':
       return nextJS;
+    case 'node js':
+      return nodeJS;
     case 'nuxt js':
       return nuxtJS;
     case 'react':
@@ -145,6 +151,8 @@ export const skillsImage = (skill) => {
       return java;
     case 'kotlin':
       return kotlin;
+    case 'jira':
+      return jira;
     case 'julia':
       return julia;
     case 'matlab':
@@ -225,6 +233,10 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'ubuntu':
+      return ubuntu;
+    case 'github':
+      return github;
     default:
       break;
   }
