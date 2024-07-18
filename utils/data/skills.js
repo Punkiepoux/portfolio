@@ -18,7 +18,7 @@ export const skillsData = [
   'Bootstrap',
   'Docker',
   'Jira',
-  'Microsoft Office',
+  'MS Office',
   'Ubuntu',
   'Matlab',
   'Markdown',
@@ -51,7 +51,7 @@ export const skillsData = [
   Haxe
   Ionic
   Markdown
-  Microsoft Office
+  MS Office
   Picsart
   Sketch
   Unity
@@ -110,4 +110,8 @@ export const skillsData = [
   Tensorflow
   Webex
   Wordpress
+  GitHub
+  Node JS
+  Jira
+  Ubuntu
 */

@@ -42,7 +42,7 @@ import markdown from '/public/svg/skills/markdown.svg';
 import materialui from '/public/svg/skills/materialui.svg';
 import matlab from '/public/svg/skills/matlab.svg';
 import memsql from '/public/svg/skills/memsql.svg';
-import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
+import msoffice from '/public/svg/skills/microsoftoffice.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
@@ -221,8 +221,8 @@ export const skillsImage = (skill) => {
       return ionic;
     case 'markdown':
       return markdown;
-    case 'microsoft office':
-      return microsoftoffice;
+    case 'ms office':
+      return msoffice;
     case 'picsart':
       return picsart;
     case 'sketch':
