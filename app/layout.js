@@ -10,7 +10,7 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Antoine Dausque - Software Developer | Product Owner",
+  title: "Antoine Dausque - Software Developer & Product Owner",
   description:
     "My name is Antoine Dausque, I am a web developer and product owner. I am passionate about development and product management, and I am always looking for new challenges.",
 };
